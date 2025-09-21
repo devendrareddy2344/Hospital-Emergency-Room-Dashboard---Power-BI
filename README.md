@@ -5,7 +5,7 @@
 This Power BI project delivers an interactive dashboard designed to analyze and optimize emergency room (ER) performance. It includes three key views: **Monthly View** for trend analysis, **Consolidated View** for aggregated insights, and **Patient Details** for granular data exploration. The dashboard visualizes critical metrics such as patient volume, average wait times, satisfaction scores, and department referrals using sparklines, bar charts, pie charts, and heatmaps. Developed with DAX calculations and a robust data model, it empowers healthcare stakeholders with data-driven decision-making capabilities.
 
 ### Image: Monthly View
-![Monthly View](./screenshots/Screenshot_2025-09-20_111636.png)
+![Monthly View](./Screenshot_2025-09-20_111636.png)
 #### Description
 This view displays January 2024 data for 513 patients, featuring an average wait time of 36.3 minutes, a satisfaction score of 4.96, and 214 patient referrals. It includes bar charts for admission status (47.56% not admitted, 52.44% admitted), age distribution, and department referrals, a pie chart for gender (46.98% male, 53.02% female), and a heatmap showing peak hours (e.g., 11-12 PM with 95 patients).
 
