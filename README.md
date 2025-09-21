@@ -5,7 +5,7 @@
 This Power BI project delivers an interactive dashboard designed to analyze and optimize emergency room (ER) performance. It includes three key views: **Monthly View** for trend analysis, **Consolidated View** for aggregated insights, and **Patient Details** for granular data exploration. The dashboard visualizes critical metrics such as patient volume, average wait times, satisfaction scores, and department referrals using sparklines, bar charts, pie charts, and heatmaps. Developed with DAX calculations and a robust data model, it empowers healthcare stakeholders with data-driven decision-making capabilities.
 
 ### Image: Monthly View
-![Monthly View](./screenshots/Screenshot_2025-09-20_111636.png)
+![Monthly View](./DashBoard-image/Screenshot_2025-09-20_111636.png)
 #### Description
 This view displays January 2024 data for 513 patients, featuring an average wait time of 36.3 minutes, a satisfaction score of 4.96, and 214 patient referrals. It includes bar charts for admission status (47.56% not admitted, 52.44% admitted), age distribution, and department referrals, a pie chart for gender (46.98% male, 53.02% female), and a heatmap showing peak hours (e.g., 11-12 PM with 95 patients).
 
@@ -38,7 +38,7 @@ The healthcare sector grapples with challenges in ER efficiency, including prolo
 - **Demographics**: Shows a slight female majority (51.05%) and a diverse racial distribution.
 
 ### Image: Consolidated View
-![Consolidated View](./screenshots/Screenshot_2025-09-20_111703.png)
+![Consolidated View](./DashBoard-image/Screenshot_2025-09-20_111703.png)
 #### Description
 This view aggregates 9,216 patients from 01-04-2023 to 30-10-2024, with an average wait time of 35.3 minutes, a satisfaction score of 4.99, and 3,816 referrals. It features bar charts for admission status (49.96% not admitted, 50.04% admitted), age groups peaking at 30-39 (1,200 patients), and referrals (5.4K none), a pie chart for gender (48.69% male, 51.05% female), and a heatmap with peaks at 23-24 (1,305 patients).
 
@@ -60,7 +60,7 @@ This project tackles the critical need for data-driven ER management in healthca
 The Hospital Emergency Room Dashboard represents a successful Power BI implementation, achieving its objectives of enhancing ER efficiency and delivering actionable insights. With its comprehensive visualizations and interactive features, it provides a robust solution for healthcare stakeholders. Future enhancements could involve real-time data integration and predictive analytics to further amplify its impact.
 
 ### Image: Patient Details
-![Patient Details](./screenshots/Screenshot_2025-09-20_111735.png)
+![Patient Details](./DashBoard-image/Screenshot_2025-09-20_111735.png)
 #### Description
 This view details 20 sample patients from 01-04-2023 to 30-10-2024, with wait times ranging from 11 to 55 minutes. It includes columns for Patient ID, Name, Gender, Age, Admission Date, Race, Wait Time, Department Referral, and Admission Status, offering insights into individual cases for troubleshooting.
 
@@ -88,7 +88,7 @@ MIT License
 Copyright (c) 2025 Devendra Reddy Vennapusa
 
 ## Last Updated
-September 21, 2025, 10:04 PM IST
+September 21, 2025, 10:11 PM IST
 
 ## About
-This Power BI project creates an interactive dashboard to analyze and optimize emergency room performance. It includes three views: Monthly View for trend analysis, Consolidated View for aggregated insights, and Patient Details for granular data. Key metrics include patient volume, average
+This Power BI project creates an interactive dashboard to analyze and optimize emergency room performance. It includes three views: Monthly View for trend analysis, Consolidated View for aggregated insights, and Patient Details for granular data. Key metrics include patient volume, average wait times, satisfaction scores, and department referrals.
