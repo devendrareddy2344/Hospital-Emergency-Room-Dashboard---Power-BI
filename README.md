@@ -88,7 +88,7 @@ MIT License
 Copyright (c) 2025 Devendra Reddy Vennapusa
 
 ## Last Updated
-September 21, 2025, 10:11 PM IST
+September 21, 2025, 10:14 PM IST
 
 ## About
 This Power BI project creates an interactive dashboard to analyze and optimize emergency room performance. It includes three views: Monthly View for trend analysis, Consolidated View for aggregated insights, and Patient Details for granular data. Key metrics include patient volume, average wait times, satisfaction scores, and department referrals.
