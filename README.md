@@ -1,94 +1,133 @@
-# Hospital Emergency Room Dashboard - Power BI
+# 🏥 Hospital Emergency Room Dashboard – Power BI Project
 
-## 1. Project Overview
+> 📊 An interactive Power BI dashboard visualizing hospital emergency room (ER) performance to improve operational efficiency and patient care outcomes.
 
-This Power BI project delivers an interactive dashboard designed to analyze and optimize emergency room (ER) performance. It includes three key views: **Monthly View** for trend analysis, **Consolidated View** for aggregated insights, and **Patient Details** for granular data exploration. The dashboard visualizes critical metrics such as patient volume, average wait times, satisfaction scores, and department referrals using sparklines, bar charts, pie charts, and heatmaps. Developed with DAX calculations and a robust data model, it empowers healthcare stakeholders with data-driven decision-making capabilities.
+---
 
-### Image: Monthly View
-![Monthly View](./DashBoard-image/Screenshot_2025-09-20_111636.png)
-#### Description
-This view displays January 2024 data for 513 patients, featuring an average wait time of 36.3 minutes, a satisfaction score of 4.96, and 214 patient referrals. It includes bar charts for admission status (47.56% not admitted, 52.44% admitted), age distribution, and department referrals, a pie chart for gender (46.98% male, 53.02% female), and a heatmap showing peak hours (e.g., 11-12 PM with 95 patients).
+## 📘 1. Project Overview
 
-## 2. Project Context
+This project provides a **comprehensive analysis** of emergency room operations using Power BI.  
+It tracks trends in patient admissions, departmental load, and patient-level details to help administrators make **data-driven decisions**.  
 
-The healthcare sector grapples with challenges in ER efficiency, including prolonged wait times, patient satisfaction, and resource allocation. This project addresses these issues by harnessing Power BI to convert raw ER data into actionable insights. It utilizes a sample dataset spanning 01-04-2023 to 30-10-2024, encompassing 9,216 patient records, to simulate real-world scenarios and lay the groundwork for operational enhancements.
+---
 
-## 3. Project Goals
+## 📂 2. Project Context
 
-- Improve ER operational efficiency by tracking key performance indicators (KPIs) such as wait times and patient volume.
-- Detect trends and patterns (e.g., peak hours, seasonal variations) to optimize staffing and resource deployment.
-- Boost patient satisfaction through timely interventions informed by satisfaction score trends.
-- Facilitate detailed troubleshooting with patient-level data to resolve specific operational issues.
-- Offer a scalable framework for long-term performance monitoring across customizable date ranges.
+Emergency Rooms are high-pressure environments with **high patient inflow and limited resources**.  
+This project demonstrates **real-world ER analytics** by visualizing trends, bottlenecks, and operational efficiency across different dashboards.
 
-## 4. Key Features and Insights
+---
 
-### Key Features
-- **Monthly View**: Analyzes daily trends for 513 patients in January 2024.
-- **Consolidated View**: Examines 9,216 patients from 01-04-2023 to 30-10-2024.
-- **Patient Details**: Provides a detailed table of 20 sample patients with comprehensive metrics.
-- **Visualizations**: Features age distribution, gender analysis, and hourly patterns.
-- **Interactivity**: Enables dynamic exploration with date range slicers and filters.
+## 🎯 3. Project Goals
 
-### Insights
-- **Wait Times**: Averages 35.3-36.3 minutes, with peaks indicating staffing needs during 11-12 PM and 23-24 hours.
-- **Admission Status**: Maintains a balanced split (49.96%-52.44% admitted) across views.
-- **Timeliness**: Achieves 60-62% of patients seen within 30 minutes, with 38-40% missing the target.
-- **Referrals**: Predominantly "None" (5.4K in Consolidated View), with General Practice and Orthopedics as leading categories.
-- **Demographics**: Shows a slight female majority (51.05%) and a diverse racial distribution.
+- Track **daily, monthly, and overall ER trends**  
+- Analyze **departmental workload and referral patterns**  
+- Measure **key performance indicators (KPIs)**:  
+  - Wait Time  
+  - Timeliness  
+  - Patient Satisfaction  
+- Provide **interactive filtering and drill-downs** using slicers and visuals  
 
-### Image: Consolidated View
-![Consolidated View](./DashBoard-image/Screenshot_2025-09-20_111703.png)
-#### Description
-This view aggregates 9,216 patients from 01-04-2023 to 30-10-2024, with an average wait time of 35.3 minutes, a satisfaction score of 4.99, and 3,816 referrals. It features bar charts for admission status (49.96% not admitted, 50.04% admitted), age groups peaking at 30-39 (1,200 patients), and referrals (5.4K none), a pie chart for gender (48.69% male, 51.05% female), and a heatmap with peaks at 23-24 (1,305 patients).
+---
 
-## 5. Impact of This Project
+## ✨ 4. Dashboards & Features
 
-This dashboard enables healthcare administrators to:
-- Reduce wait times by identifying peak periods and adjusting staffing levels.
-- Enhance patient satisfaction by linking dips to operational challenges.
-- Optimize resource allocation based on referral patterns, such as prioritizing General Practice.
-- Improve decision-making with real-time, customizable insights, potentially reducing costs and improving patient outcomes.
-- Serve as a replicable model for other healthcare facilities to adopt similar analytics solutions.
+### 1️⃣ Monthly View Dashboard
+![Monthly View](DashBoard-image/Monthly-view.png)  
 
-## 6. Why This Project
+**Description:**  
+- Shows **monthly patient admission and discharge trends**  
+- Tracks department-wise referrals and workloads  
+- Visualizes seasonal patterns and peak periods  
+- Includes interactive filters for department, patient type, and admission category  
 
-This project tackles the critical need for data-driven ER management in healthcare, where manual analysis is inefficient and prone to errors. Motivated by the rising demand for digital transformation, it leverages Power BI’s interactive tools to address observed inefficiencies in ER operations. The initiative reflects a commitment to using available data to drive meaningful improvements, serving as both a practical application and a valuable learning experience.
+**Insights Provided:**  
+- Identify busiest months and seasonal trends  
+- Monitor departmental efficiency and resource allocation  
 
-## 7. Conclusion
+---
 
-The Hospital Emergency Room Dashboard represents a successful Power BI implementation, achieving its objectives of enhancing ER efficiency and delivering actionable insights. With its comprehensive visualizations and interactive features, it provides a robust solution for healthcare stakeholders. Future enhancements could involve real-time data integration and predictive analytics to further amplify its impact.
+### 2️⃣ Consolidated View Dashboard
+![Consolidated View](DashBoard-image/Consolidated-view.png)  
 
-### Image: Patient Details
-![Patient Details](./DashBoard-image/Screenshot_2025-09-20_111735.png)
-#### Description
-This view details 20 sample patients from 01-04-2023 to 30-10-2024, with wait times ranging from 11 to 55 minutes. It includes columns for Patient ID, Name, Gender, Age, Admission Date, Race, Wait Time, Department Referral, and Admission Status, offering insights into individual cases for troubleshooting.
+**Description:**  
+- Provides a **holistic snapshot** of ER performance  
+- Displays total admissions, patient flow, and bed occupancy  
+- Highlights daily and weekly trends  
+- Supports quick overview of KPIs in a single view  
 
-## 8. Let's Connect
+**Insights Provided:**  
+- Identify bottlenecks in patient flow  
+- Monitor overall ER efficiency  
+- Evaluate resource utilization across departments  
 
-For questions, feedback, or collaboration, feel free to reach out:
+---
 
-- **LinkedIn**: [Devendra Reddy Vennapusa](https://www.linkedin.com/in/devendra-reddy-vennapusa)
-- **GitHub**: [devendrareddy2344](https://github.com/devendrareddy2344)
-- **Instagram**: [devendra_reddy02](https://www.instagram.com/devendra_reddy02/)
+### 3️⃣ Patient Details Dashboard
+![Patient Details](DashBoard-image/Patient_Details.png)  
 
-## Image Source
+**Description:**  
+- Provides **detailed patient-level information**  
+- Includes demographics, admission type, and status  
+- Useful for operational decisions, reporting, and audits  
 
-These images are screenshots generated from the Power BI dashboard developed by [Devendra Reddy Vennapusa](https://www.linkedin.com/in/devendra-reddy-vennapusa). The data visualized is based on a sample dataset created for demonstration purposes. No external images or copyrighted material are included.
+**Insights Provided:**  
+- Analyze individual patient data  
+- Track patient distribution across departments  
+- Identify patterns affecting wait times and satisfaction  
 
-*Note*: If the dataset is sourced from a specific provider, please add a citation (e.g., "Data sourced from [Provider Name], licensed under [License]").*
+---
 
-## Acknowledgments
+## 💥 5. Project Impact
 
-Special thanks to the xAI community and resources that inspired this project.
+- Helps hospitals **plan resources** and allocate staff efficiently  
+- Reduces **patient wait times** by identifying peak periods  
+- Enables **data-driven decisions** to improve service quality  
+- Demonstrates **Power BI, DAX, and Power Query** applied in healthcare analytics  
+- Strengthens **Data Analyst / BI portfolio**
 
-## License
+---
 
-MIT License  
-Copyright (c) 2025 Devendra Reddy Vennapusa
+## 🤝 6. Author
 
-## Last Updated
-September 21, 2025, 10:14 PM IST
+**Devendra Reddy Vennapusa**  
+- 💼 [LinkedIn](https://www.linkedin.com/in/devendra-reddy-vennapusa)  
+- 💻 [GitHub](https://github.com/devendrareddy2344)  
+- 📸 [Instagram](https://www.instagram.com/devendra_reddy02/)  
 
-## About
-This Power BI project creates an interactive dashboard to analyze and optimize emergency room performance. It includes three views: Monthly View for trend analysis, Consolidated View for aggregated insights, and Patient Details for granular data. Key metrics include patient volume, average wait times, satisfaction scores, and department referrals.
+---
+
+## 📁 Repository Contents
+
+| File | Description |
+|------|-------------|
+| `Hospital ER_Data.csv` | Raw hospital ER dataset |
+| `Hospital.pbix` | Power BI file with interactive dashboards |
+| `DashBoard-image/Monthly-view.png` | Screenshot of Monthly View dashboard |
+| `DashBoard-image/Consolidated-view.png` | Screenshot of Consolidated View dashboard |
+| `DashBoard-image/Patient_Details.png` | Screenshot of Patient Details dashboard |
+| `Problem statement PPT.pptx` | Project requirements and plan |
+
+---
+
+## 🛠️ Tech Stack
+
+- **Power BI** – Data modeling, dashboard design  
+- **Power Query** – Data cleaning and transformation  
+- **DAX** – KPI calculations and time intelligence  
+- **CSV Dataset** – Raw hospital data  
+
+---
+
+## 🚀 How to Use
+
+1. Clone/download the repository  
+2. Open `Hospital.pbix` in **Power BI Desktop**  
+3. Explore the **Monthly, Consolidated, and Patient Details Dashboards**  
+4. Use slicers and filters to analyze trends, patient flow, and departmental performance  
+
+---
+
+## 🔖 Tags & Topics
+
+`PowerBI` `Healthcare Analytics` `Data Visualization` `Hospital Dashboard` `Monthly Trends` `Business Intelligence` `Patient Management`
